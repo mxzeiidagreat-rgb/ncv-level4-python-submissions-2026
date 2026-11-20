@@ -1,0 +1,13 @@
+ERROR LOG - REJECTED RECORDS
+============================
+
+Line 211: M001,Duplicate Meter,900,930,Mamelodi - REJECTED: Duplicate meter number M001
+Line 212: M211,Missing Reading,,950,Soshanguve - REJECTED: Missing field(s)
+Line 213: M212,Negative Reading,-10,20,Mamelodi - REJECTED: Negative reading
+Line 214: M213,Reversed Reading,1200,1100,Ga-Rankuwa - REJECTED: Current reading below previous reading
+Line 215: M214,Invalid Reading,abc,1230,Atteridgeville - REJECTED: Non-numeric reading
+Line 216: M215,Missing Area,900,950, - REJECTED: Missing field(s)
+Line 217: M216,Too,Few,Fields - REJECTED: Expected 5 fields, got 4
+Line 218: M217,Extra,100,120,Mamelodi,EXTRA - REJECTED: Expected 5 fields, got 6
+Line 219: M218,,100,150,Soshanguve - REJECTED: Missing field(s)
+Line 220: M219, ,100,130,Mamelodi - REJECTED: Missing field(s)
